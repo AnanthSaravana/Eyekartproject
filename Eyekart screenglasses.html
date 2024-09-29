@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+               body{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    text-decoration: none;
+    position: sticky;
+    top:0px;
+}
+.logo{
+    float: inline-start;
+    height: 65px;
+    width: 150px;  
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.ul{
+    display: inline-block;
+    margin-left: 50%;
+    font-size: medium;
+}
+.list{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.footer1{
+    background-color:lightgray; 
+}
+.u2{
+    display: inline-block;
+    margin-left: 5%;
+    text-decoration: none;
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.content{
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+ul.div{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    background-color:lightgray;
+    margin:10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.product{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.container{
+    height: 350px;
+    width: 300px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    border: 2px  solid lightgray;
+    padding-left: 15px;
+    box-shadow: 0 0 10px lightgray;
+}
+button:hover{
+    background-color:lemonchiffon;
+}
+.image{
+    height: 150px;
+    width: 300px;
+    display: flex;
+}
+.icon{
+    height: 20px;
+    width: 30px;
+}
+button:hover{
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.3);
+}
+
+/* Media Query for tablets */
+@media only screen and (max-width: 768px) {
+    .ul{
+        margin-left: 30%;
+    }
+    .container{
+        width: 200px;
+        margin-left: 5px;
+    }
+    .image{
+        width: 200px;
+    }
+    h1, h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Media Query for mobile phones */
+@media only screen and (max-width: 480px) {
+    .ul{
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    h1, h3 {
+        font-size: 1.2rem;
+    }
+}
+    </style>
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <img class="logo" src="images/logo 2.jpeg" alt="" height="10%" width="200px">
+        <ul class="ul">
+           
+            <li class="list"><a href="index.html"><img src="images/icons8-home-30.png" height="20px" width="20px" alt="">Home</a></li>
+            <li class="list"><a href=""><img src="images/icons8-track-order-50.png" height="20px" width="20px" alt="">Track Order</a></li>
+            <li class="list"><a href=""><img src="images/icons8-email-marketing-management-50.png" height="20px" width="20px">Wishlist</a></li>
+            <li class="list"><a href=""><img src="images/icons8-cart-30.png" height="20px" width="20px" altn="Cart">Cart</a></li>
+        </ul>
+         
+    </nav>
+     
+     <center><h1>SCREEN GLASSES</h1></center
+     <center>
+        <img src="images/Desktop banner eyekart2.png" height="295px" width="100%" alt="Eyekart poster">
+        </center>
+        <div class="product">
+     <div class="container">
+        <img class="image" src="images/screen glasses file.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glasses.1.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/sceen glasses 3.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 4.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glasses2.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 5.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass6.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 7.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 8.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 9.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 10.1500.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹2199</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass11.1500.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹1499</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glasse 12.2000.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹1999</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 14.2000.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹1999</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 15.2000.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹1999</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+    <div class="container">
+        <img class="image" src="images/screen glass 16.1500.webp">
+        <p>EYEKART AIR</p>
+        <h3>₹1999</h3>
+        <p><img src="images/icons8-offer-50.png" alt="">Offer Price</p>
+        <button><span><img class="icon" src="images/icons8-cart-30.png" alt=""></span>Add cart</button>
+        <button><span><img class="icon" src="./images/icons8-buy-now-50.png" alt=""></span>Buy Now</button>
+    </div>
+</div>
+     <footer class="footer1">
+        <h1>Buy The Best Eyewear From Safe Eyes</h1>
+        <h4>SafeEyes Is The Leading E-Commerce Portal For Eyewear In India. It Has Revolutionised The Eyewear Industry In The Country With Its Omni-Channel Approach. From An Ever-Growing Number Of Offline Stores Across Major Cities In The Country To Innovative Integration Of Technology While Purchasing Online, SafeEyes Caters To Every Customer With Several Deals And Offers.
+
+            A One-Stop Online Solution For Purchasing Eyewear And Its Accessories, Lenskart Delivers Them Right At Your Doorstep With Convenient Methods Of Payment. Sunglasses as well as Eyeglasses Are Available For Men And Women In A Diverse Array Of Styles And Trendy Colours. If You Want To Try Out Contact Lenses, Pick The Ones Of Your Choice From The Extensive Variety Of Coloured Contact Lenses From Our Online Store.</h4>
+        
+            <div class="content">
+                <ul class="content1">
+                <div class="li">Services</div><br>
+                <div class="li"><a href="">Store Locator</a></li>
+                <div class="li"><a href="">Buying Guide</a></div>
+                <div class="li"><a href="">Frame Size</a></div>
+            </ul>
+            <ul class="content2">
+                <div class="li">About Us</div><br>
+                <div class="li"><a href="">We Are Hiring</a></div>
+                <div class="li"><a href="">Refer And Earn</a></div>
+                <div class="li"><a href="">About us</a></div>
+                <div class="li"><a href="">Safe Eyes Coupons</a></div>
+        
+            </ul>
+            <ul class="content3">
+                <div class="li">Help</div><br>
+                <div class="li"><a href="">FAQ's</a></div>
+            </ul>
+        </div>
+    <center>
+        <img class="ficon">
+        <img src="images/icons8-apple-50.png" alt="" height="40px" width="40px" >
+        <img src="images/icons8-facebook-50.png" alt="" height="40px" width="40px" >
+        <img src="images/icons8-instagram-50.png" alt="" height="40px" width="40px" >
+        <img src="images/icons8-play-store-50 (1).png" alt="" height="40px" width="40px" >
+    </img>
+    <h4>@EYEKART INDIA</h4>
+    </center>
+    
+</footer>
+
+</body>
+</html>
+</body>
+</html>
